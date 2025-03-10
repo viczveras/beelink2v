@@ -1,0 +1,113 @@
+@media screen and (max-width: 760px) {
+  /* Estilos para o header */
+  header {
+    flex-direction: column; /* Organiza o header em coluna */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  #title {
+    margin-bottom: 20px;
+  }
+
+  main {
+    flex-direction: column; /* Organiza o main em coluna */
+    align-items: center; /* Centraliza os itens */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  h2 {
+    font-size: 38px;
+    line-height: 1.2; /* Define o espaçamento entre linhas */
+  }
+
+  form {
+    margin: 0 auto; /* Centraliza o formulário */
+    width: 90%; /* Define a largura do formulário */
+  }
+
+  input {
+    align-self: center;
+    width: 100%; /* Define a largura total dos inputs */
+    margin-top: 15px; /* Adiciona margem superior aos inputs */
+  }
+
+  ul {
+    text-align: center;
+    padding: 0; /* Remove o padding */
+  }
+
+  li {
+    display: block; /* Exibe os itens de lista como blocos */
+    margin: 10px 0; /* Adiciona margem vertical aos itens de lista */
+  }
+
+  #inscrito-btn {
+    margin-top: 10px; /* Adiciona margem superior */
+    border: none; /* Remove a borda do cellphone mode pois estava quebrando*/
+  }
+
+  #inscrito-btn li:hover {
+    color: black;
+  }
+
+  .preview-section {
+    display: flex; /* Define o flexbox */
+    flex-direction: column; /* organiza os itens em coluna */
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .preview-section .preview-image img {
+    max-width: 300px;
+  }
+
+  .preview-section .preview-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .preview-section .preview-text h2 {
+    font-size: 28px;
+    line-height: 1.2; /* Define o espaçamento entre linhas */
+    margin-right: 2.1vh;
+  }
+
+  .preview-section .social-icons {
+    display: flex; /* Define um layout flexível */
+    justify-content: center; /* Centraliza os ícones */
+    gap: 15px; /* Define o espaçamento entre os ícones */
+    margin-top: 20px; /* Adiciona espaçamento superior */
+  }
+
+  .preview-section .social-icons a {
+    font-size: 20px;
+  }
+
+  /* estilos para centralizar o gif */
+  article {
+    display: flex; /* Define um layout flexível */
+    justify-content: center; /* Centraliza a imagem */
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  article img {
+    width: 80%;
+    max-width: 300px;
+    margin: 20px 0;
+  }
+
+  /* estilos para alinhar aside e article */
+  .content-wrapper {
+    display: flex; /* Define um layout flexível */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza os itens */
+  }
+  .preview-text .social-icons {
+    margin-left: -0.8vh;
+  }
+  a {
+    text-decoration: none;
+  }
+}

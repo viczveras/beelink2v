@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./components/images/favicon.ico"/>
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>BeeLinks</title>
+</head>
+<body class="bg-[rgb(34,34,34)] text-white font-sans max-w-screen-xl mx-auto px-4 py-4">
+    <header class="flex justify-between items-center">
+        <div id="title" class="flex flex-col text-yellow-400 leading-none">
+            <h1 class="text-3xl font-light" style="font-family: 'poppinsbold';">Bee</h1>
+            <h1 class="text-3xl font-light text-white" style="font-family: 'poppinsbold';">Links</h1>
+        </div>
+        
+        <ul class="flex items-center space-x-8" style="font-family: 'poppinsregular';">
+            <li>
+                <a href="#" class="text-yellow-400 hover:text-black transition duration-300 flex items-center">
+                    <i class="fas fa-home mr-2"></i> Ínicio
+                </a>
+            </li>
+            <li>
+                <a href="#" class="text-yellow-400 hover:text-black transition duration-300 flex items-center">
+                    <i class="fas fa-concierge-bell mr-2"></i> Serviços
+                </a>
+            </li>
+            <li>
+                <a href="#" class="text-yellow-400 hover:text-black transition duration-300 flex items-center">
+                    <i class="fas fa-info-circle mr-2"></i> Sobre
+                </a>
+            </li>
+            <li>
+                <a href="#" class="text-yellow-400 hover:text-black transition duration-300 flex items-center">
+                    <i class="fas fa-envelope mr-2"></i> Contato
+                </a>
+            </li>
+            <li>
+                <a href="#" id="inscrito-btn" class="flex items-center border-2 border-white px-4 py-2 rounded-lg hover:bg-yellow-400 hover:text-black transition duration-300">
+                    <i class="fas fa-user-check mr-2"></i> Já tenho uma conta
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="flex flex-col mt-12 space-y-12">
+        <div class="flex flex-col md:flex-row justify-between items-start">
+            <aside class="space-y-6">
+                <h2 class="text-5xl font-medium text-yellow-400 transition duration-300 hover:text-shadow-lg" style="font-family: 'poppinsbold';">
+                    Venha para a <br> <span class="text-white" style="font-family: 'poppinsbold';">BeeLinks!</span>
+                </h2>
+                
+                
+                <p class="text-white max-w-md leading-6" style="font-family: 'poppinsregular';">
+                    Nosso propósito é organizar suas redes sociais e dados mais importantes em um só lugar! Imagina só, tudo isso em um só lugar, e para melhorar, com 3 meses de desconto!
+                    Venha para a BeeLinks, e sinta a liberdade da organização!
+                </p>
+                <form class="flex flex-col space-y-4 w-4/5">
+                    <input type="email" placeholder="E-mail" class="p-4 rounded-full bg-gray-800 text-sm border-none">
+                    <input type="password" placeholder="Senha" class="p-4 rounded-full bg-gray-800 text-sm border-none">
+                    <input type="submit" value="Me Inscrever" class="h-12 w-48 bg-black text-white font-bold rounded-lg hover:cursor-pointer">
+                </form>
+            </aside>
+            <article>
+                <img src="components/images/giphy.gif" alt="Bee" class="w-[580px] rounded-2xl transition-shadow duration-300 hover:shadow-[0_0_20px_rgba(255,223,0,0.8)]">
+
+            </article>
+        </div>
+
+        <div class="flex items-center mt-12 bg-black bg-opacity-10 rounded-lg w-full">
+            <div class="flex-1">
+                <img src="components/images/preview.jpg" alt="Preview" class="w-full rounded-3xl">
+
+            </div>
+            <div class="flex-1 text-center space-y-4">
+                <h2 class="text-5xl font-medium text-white-400 transition hover:text-shadow-lg" style="font-family: 'poppinsregular';">Não perca esta oportunidade!</h2>
+                <div class="flex justify-center gap-8">
+                    <a href="#" target="_blank" class="text-white hover:text-black transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" target="_blank" class="text-white hover:text-black transition">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" target="_blank" class="text-white hover:text-black transition">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" target="_blank" class="text-white hover:text-black transition">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://wa.me/seu_numero_de_telefone" target="_blank" id="whatsapp-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+<footer class="bg-gray rounded-lg shadow-sm m-4 dark:bg-gray-800">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://flowbite.com/" class="hover:underline">BeeLinks™</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+
+</body>
+
+</html>
